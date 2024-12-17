@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_news"
+        android:icon="@drawable/icon_baseline_news_24"
+        android:title="@string/tech_news" />
+    <item
+        android:id="@+id/nav_feedback"
+        android:icon="@drawable/icon_round_feedback_black_24"
+        android:title="@string/feedback" />
+    <item
+        android:id="@+id/nav_terms_and_conditions"
+        android:icon="@drawable/icon_file_black_24"
+        android:title="@string/terms_and_conditions" />
+    <item
+        android:id="@+id/nav_contact_us"
+        android:icon="@drawable/icon_round_phone_black_24"
+        android:title="@string/contact_me" />
+    <item
+        android:id="@+id/nav_share"
+        android:icon="@drawable/icon_share_black_24"
+        android:title="@string/share" />
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/icon_round_logout_black_24"
+        android:title="@string/logout" />
+</menu>

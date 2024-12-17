@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/acme"
+        android:gravity="center"
+        android:text="@string/choose_avatar"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/sign_up_bar"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/black" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:columnCount="3"
+        android:rowCount="5">
+
+        <ImageView
+            android:id="@+id/avatar_1"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_margin="5dp"
+            android:layout_rowWeight="1"
+            android:clickable="true"
+            android:contentDescription="@string/avatar"
+            android:background="@drawable/rectangular_corner_box"
+            android:backgroundTint="@color/primary_mid"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground" />
+
+        <ImageView
+            android:id="@+id/avatar_2"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_margin="5dp"
+            android:layout_rowWeight="1"
+            android:clickable="true"
+            android:contentDescription="@string/avatar"
+            android:background="@drawable/rectangular_corner_box"
+            android:backgroundTint="@color/primary_mid"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground" />
+
+        <ImageView
+            android:id="@+id/avatar_3"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_margin="5dp"
+            android:layout_rowWeight="1"
+            android:clickable="true"
+            android:contentDescription="@string/avatar"
+            android:background="@drawable/rectangular_corner_box"
+            android:backgroundTint="@color/primary_mid"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground" />
+
+        <ImageView
+            android:id="@+id/avatar_4"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_margin="5dp"
+            android:layout_rowWeight="1"
+            android:clickable="true"
+            android:contentDescription="@string/avatar"
+            android:background="@drawable/rectangular_corner_box"
+            android:backgroundTint="@color/primary_mid"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground" />
+
+        <ImageView
+            android:id="@+id/avatar_5"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_margin="5dp"
+            android:layout_rowWeight="1"
+            android:clickable="true"
+            android:contentDescription="@string/avatar"
+            android:background="@drawable/rectangular_corner_box"
+            android:backgroundTint="@color/primary_mid"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground" />
+
+        <ImageView
+            android:id="@+id/avatar_6"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_margin="5dp"
+            android:layout_rowWeight="1"
+            android:clickable="true"
+            android:contentDescription="@string/avatar"
+            android:background="@drawable/rectangular_corner_box"
+            android:backgroundTint="@color/primary_mid"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground" />
+
+        <ImageView
+            android:id="@+id/avatar_7"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_margin="5dp"
+            android:layout_rowWeight="1"
+            android:clickable="true"
+            android:contentDescription="@string/avatar"
+            android:background="@drawable/rectangular_corner_box"
+            android:backgroundTint="@color/primary_mid"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground" />
+
+        <ImageView
+            android:id="@+id/avatar_8"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_margin="5dp"
+            android:layout_rowWeight="1"
+            android:clickable="true"
+            android:contentDescription="@string/avatar"
+            android:background="@drawable/rectangular_corner_box"
+            android:backgroundTint="@color/primary_mid"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground" />
+
+        <ImageView
+            android:id="@+id/avatar_9"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_margin="5dp"
+            android:layout_rowWeight="1"
+            android:clickable="true"
+            android:contentDescription="@string/avatar"
+            android:background="@drawable/rectangular_corner_box"
+            android:backgroundTint="@color/primary_mid"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground" />
+
+        <ImageView
+            android:id="@+id/avatar_10"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_margin="5dp"
+            android:layout_rowWeight="1"
+            android:clickable="true"
+            android:contentDescription="@string/avatar"
+            android:background="@drawable/rectangular_corner_box"
+            android:backgroundTint="@color/primary_mid"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground" />
+
+        <ImageView
+            android:id="@+id/avatar_none"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_margin="5dp"
+            android:layout_rowWeight="1"
+            android:clickable="true"
+            android:contentDescription="@string/avatar"
+            android:src="@drawable/icon_none_black_150"
+            android:background="@drawable/rectangular_corner_box"
+            android:backgroundTint="@color/primary_mid"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground" />
+    </GridLayout>
+</LinearLayout>

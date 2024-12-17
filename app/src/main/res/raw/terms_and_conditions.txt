@@ -1,0 +1,40 @@
+Welcome to Konnect, a platform designed to foster communication, sharing, and engagement. By using the Konnect app, you agree to the following terms and conditions. Please read them carefully before proceeding.
+
+1. About Konnect
+1.1. Konnect is a self-made project, developed using Android Studio. It represents the creativity, effort, and dedication of its developer.
+1.2. As a community-driven platform, Konnect encourages responsible use and meaningful contributions from its users.
+
+2. User Conduct
+2.1. Users are encouraged to share posts, ideas, and content. However, it is your responsibility to:
+
+Refrain from posting inappropriate, harmful, or offensive content.
+Ensure that your contributions respect the rights, privacy, and dignity of others.
+2.2. Konnect reserves the right to remove any content deemed unsuitable or in violation of these terms without prior notice.
+3. Feedback and Suggestions
+3.1. Your feedback is highly valuable and contributes to the improvement of Konnect.
+3.2. Users are encouraged to provide constructive feedback or suggestions through the designated channels within the app.
+3.3. By providing feedback, you agree that it may be used to enhance the app without any obligation for compensation or acknowledgment.
+
+4. Sharing and Community Engagement
+4.1. Users are encouraged to share the app with friends, family, and communities to promote its growth.
+4.2. When sharing content or interacting within the community, users must ensure that their contributions comply with these terms and local regulations.
+
+5. Privacy
+5.1. Konnect respects user privacy and ensures that your personal information will not be shared with third parties without consent.
+5.2. Users are advised to avoid sharing sensitive or personal information publicly within the app.
+
+6. Responsibility
+6.1. While the developer strives to provide a smooth and secure experience, Konnect is provided "as-is" without warranties of any kind.
+6.2. Users are responsible for their own interactions and any content they share.
+6.3. The developer will not be held liable for any disputes, losses, or damages resulting from the use of the app.
+
+7. Changes to Terms
+7.1. These terms and conditions may be updated from time to time to reflect changes in functionality, user expectations, or legal requirements.
+7.2. Continued use of the app following any updates constitutes your acceptance of the revised terms.
+
+8. Contact
+For questions, suggestions, or feedback about these terms or the Konnect app, please reach out to the developer through the feedback section in the app.
+
+By using Konnect, you acknowledge that you understand and agree to these terms and conditions. Let’s work together to build a positive, engaging, and respectful community.
+
+Thank you for being a part of the Konnect journey!

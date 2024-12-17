@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ProfileCustomizationActivity">
+
+    <TextView
+        android:id="@+id/sign_up_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/acme"
+        android:gravity="center"
+        android:text="@string/sign_up"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/sign_up_bar"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@id/sign_up_title"
+        android:background="@color/black" />
+
+    <EditText
+        android:id="@+id/user_bio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/acme"
+        android:layout_below="@+id/sign_up_bar"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/primary_mid"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/write_something"
+        android:inputType="textMultiLine"
+        android:lines="8"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/transparent_black"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/avatar_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/choose_avatar_button"
+        android:src="@color/primary_mid"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/choose_avatar_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/acme"
+        android:layout_above="@+id/register_button"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/card_background"
+        android:text="@string/choose_avatar"
+        android:textColor="@color/black"
+        app:cornerRadius="0dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/register_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:backgroundTint="@color/primary"
+        android:fontFamily="@font/acme"
+        android:text="@string/register"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:cornerRadius="0dp" />
+</RelativeLayout>

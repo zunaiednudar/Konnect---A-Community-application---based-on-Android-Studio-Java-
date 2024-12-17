@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "858441352985",
+    "project_id": "konnect-a6216",
+    "storage_bucket": "konnect-a6216.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:858441352985:android:c7c5035cef7ff6d73be788",
+        "android_client_info": {
+          "package_name": "com.example.konnect_v2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9cRgdkm3-VL8g149l7nWZs3kx22loa4I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

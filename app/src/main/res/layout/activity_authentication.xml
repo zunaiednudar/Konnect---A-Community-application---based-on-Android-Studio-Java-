@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="32dp"
+    tools:context=".AuthenticationActivity">
+
+    <ImageView
+        android:id="@+id/icon_account_circle"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:contentDescription="@string/icon_account_circle_content_description"
+        app:srcCompat="@drawable/icon_account_circle_black_100" />
+
+    <EditText
+        android:id="@+id/user_email_input"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/acme"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/rounded_corner_box"
+        android:drawableStart="@drawable/icon_email_black_24"
+        android:drawablePadding="20dp"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:padding="18dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/transparent_black"
+        android:textSize="20sp"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/user_password_input"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/acme"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/rounded_corner_box"
+        android:drawableStart="@drawable/icon_key_black_24"
+        android:drawablePadding="20dp"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:padding="18dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/transparent_black"
+        android:textSize="20sp"
+        tools:ignore="Autofill" />
+
+    <Button
+        android:id="@+id/user_sign_in_button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/acme"
+        android:padding="5dp"
+        android:text="@string/sign_in"
+        android:textSize="15sp"
+        tools:ignore="VisualLintButtonSize" />
+
+    <TextView
+        android:id="@+id/user_forgot_password_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/acme"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:gravity="end"
+        android:text="@string/forgot_password"
+        android:textColor="@color/blue"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/acme"
+            android:layout_marginEnd="5sp"
+            android:text="@string/sign_up_prompt"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/user_sign_up_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/acme"
+            android:layout_marginStart="5sp"
+            android:text="@string/sign_up"
+            android:textColor="@color/blue"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/konnect_logo"
+            tools:ignore="ContentDescription" />
+    </LinearLayout>
+</LinearLayout>

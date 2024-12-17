@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:background="@color/white"
+    tools:context=".PostEditActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/primary_light">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/post_edit_content_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="@color/black"
+                android:fontFamily="@font/acme"
+                android:gravity="start"
+                android:hint="@string/title"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/post_edit_content_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/acme"
+                android:layout_margin="20dp"
+                android:background="@drawable/partial_curved_corner_box"
+                android:ems="10"
+                android:gravity="start"
+                android:hint="@string/description"
+                android:inputType="textMultiLine"
+                android:lines="10"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/transparent_black"
+                android:textSize="15sp" />
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="2"
+                android:rowCount="2">
+
+                <FrameLayout
+                    android:id="@+id/post_edit_frame_layout_upload_image1"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:backgroundTint="@color/card_background"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:visibility="visible">
+
+                    <ImageButton
+                        android:id="@+id/post_edit_upload_image1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@color/card_background" />
+
+                    <ImageView
+                        android:id="@+id/post_edit_tap_to_add_image_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/icon_add_black_100"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/post_edit_frame_layout_upload_image2"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:backgroundTint="@color/card_background"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:visibility="visible">
+
+                    <ImageButton
+                        android:id="@+id/post_edit_upload_image2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@color/card_background" />
+
+                    <ImageView
+                        android:id="@+id/post_edit_tap_to_add_image_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/icon_add_black_100"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/post_edit_frame_layout_upload_image3"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:backgroundTint="@color/card_background"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:visibility="visible">
+
+                    <ImageButton
+                        android:id="@+id/post_edit_upload_image3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@color/card_background" />
+
+                    <ImageView
+                        android:id="@+id/post_edit_tap_to_add_image_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/icon_add_black_100"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/post_edit_frame_layout_upload_image4"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:backgroundTint="@color/card_background"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:visibility="visible">
+
+                    <ImageButton
+                        android:id="@+id/post_edit_upload_image4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@color/card_background" />
+
+                    <ImageView
+                        android:id="@+id/post_edit_tap_to_add_image_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/icon_add_black_100"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+                </FrameLayout>
+            </GridLayout>
+
+            <Button
+                android:id="@+id/post_edit_clear_post_pictures_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:fontFamily="@font/acme"
+                android:layout_marginBottom="60dp"
+                android:layout_marginEnd="30dp"
+                android:backgroundTint="@color/card_background"
+                android:drawableEnd="@drawable/icon_delete_black_24"
+                android:text="@string/clear"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:visibility="visible"
+                app:cornerRadius="0dp" />
+
+            <Button
+                android:id="@+id/post_edit_update_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:fontFamily="@font/acme"
+                android:backgroundTint="@color/primary"
+                android:text="@string/update"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:cornerRadius="0dp" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
